@@ -9,7 +9,7 @@ from langchain import LLMChain
 from langchain.prompts import PromptTemplate
 from langchain.agents import ZeroShotAgent, Tool, AgentExecutor
 
-os.environ["SERPER_API_KEY"] = "YOUR_SERPER_API_KEY"
+os.environ["SERPER_API_KEY"] = "a04bf295833ea45e72b1e5f05e6f473becda8b6d"
 
 def get_ticker_news(ticker, n_search_results=3):
     # Get the news from Yahoo Finance
